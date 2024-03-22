@@ -35,18 +35,18 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "B.Tech Graduation",
+    location: "Chennai, TN",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated from SRM Chennai with a degree in Computer Science. I immediately found a job as a full stack developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I have been working as a full stack developer for 3 years at BONbLOC. My stack includes Angular, Java EE / Quarkus, TypeScript, Kendo UI, OpenAPI and Oracle DB.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Houston, TX",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -90,18 +90,18 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "Angular",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Java EE",
+  "JPA",
+  "OpenAPI",
+  "Hibernate",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "Node.js",
+  "Express",
   "Framer Motion",
 ] as const;
