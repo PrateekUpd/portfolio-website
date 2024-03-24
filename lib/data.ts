@@ -3,7 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import gatepassImg from "@/public/gatepass.png";
+import recipebookImg from "@/public/recipebook.png"
+import tictactoeImg from "@/public/tictactoe.png"
+import bewebsiteImg from "@/public/bewebsite.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -43,18 +46,18 @@ export const experiencesData = [
     date: "2019",
   },
   {
-    title: "Front-End Developer",
+    title: "Software Engineer",
     location: "Remote",
     description:
-      "I have been working as a full stack developer for 3 years at BONbLOC. My stack includes Angular, Java EE / Quarkus, TypeScript, Kendo UI, OpenAPI and Oracle DB.",
+      "I worked as a full stack developer for 3 years at BONbLOC. My stack includes Angular, Java EE / Quarkus, TypeScript, Kendo UI, OpenAPI and Oracle DB.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Senior Software Engineer",
+    location: "Remote",
     description:
-      "I'm a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm currently working as a Senior Software Engineer at BONbLOC. I'm also learning new technologies like React, Next.js, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -62,25 +65,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Gate Pass",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked on a gate pass application for a company. It has features like user roles, gate pass creation, approval and printing.",
+    tags: ["Angular", "Material", "MongoDB", "Node.js", "Mongoose", "JWT"],
+    imageUrl: gatepassImg,
   },
   {
-    title: "rmtDev",
+    title: "Recipe Book",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "An application to store and share recipes. It has features like recipe creation, editing, deleting and a shopping list",
+    tags: ["Angular", "TypeScript", "Firebase Realtime Database", "Firebase Auth", "Bootstrap"],
+    imageUrl: recipebookImg,
   },
   {
-    title: "Word Analytics",
+    title: "Business Excellence",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A simple static web application to inform employees about the importance of business excellence and the practices associated with it.",
+    tags: ["Angular", "Typescript", "Material"],
+    imageUrl: bewebsiteImg,
+  },
+  {
+    title: "Tic tac toe",
+    description:
+      "A simple tic tac toe game. The application can be downloaded as a Progressive Web Application(PWA).",
+    tags: ["Angular", "Typescript", "Firebase hosting", "Nebular UI"],
+    imageUrl: tictactoeImg,
   },
 ] as const;
 
