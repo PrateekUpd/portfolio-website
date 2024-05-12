@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://scontent.fixe3-1.fna.fbcdn.net/v/t1.6435-9/39177599_2022346317815977_6741006460186001408_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=be3454&_nc_ohc=DlfbNAjErO4AX-sHl_d&_nc_ht=scontent.fixe3-1.fna&oh=00_AfDFZs0Gjapn8VDfRf8zK2kStvtij85pgznU7M2iaGE7ng&oe=6602C599"
+              src="https://scontent.fixe3-1.fna.fbcdn.net/v/t1.6435-9/39177599_2022346317815977_6741006460186001408_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zXGp04TYyUUQ7kNvgF1AWeu&_nc_ht=scontent.fixe3-1.fna&oh=00_AYCIM_3mZjdoW8e_aO7zUv8pfDiMj_ue5auxKHCsIQPCSQ&oe=66684919"
               alt="Prateek portrait"
               width="192"
               height="192"

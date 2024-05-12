@@ -2,12 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
 import gatepassImg from "@/public/gatepass.png";
 import recipebookImg from "@/public/recipebook.png"
 import tictactoeImg from "@/public/tictactoe.png"
 import bewebsiteImg from "@/public/bewebsite.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -70,6 +68,7 @@ export const projectsData = [
       "I worked on a gate pass application for a company. It has features like user roles, gate pass creation, approval and printing.",
     tags: ["Angular", "Material", "MongoDB", "Node.js", "Mongoose", "JWT"],
     imageUrl: gatepassImg,
+    appUrl: "",
   },
   {
     title: "Recipe Book",
@@ -77,6 +76,7 @@ export const projectsData = [
       "An application to store and share recipes. It has features like recipe creation, editing, deleting and a shopping list",
     tags: ["Angular", "TypeScript", "Firebase Realtime Database", "Firebase Auth", "Bootstrap"],
     imageUrl: recipebookImg,
+    appUrl: "https://recipe-book-67429.web.app/auth",
   },
   {
     title: "Business Excellence",
@@ -84,6 +84,7 @@ export const projectsData = [
       "A simple static web application to inform employees about the importance of business excellence and the practices associated with it.",
     tags: ["Angular", "Typescript", "Material"],
     imageUrl: bewebsiteImg,
+    appUrl: "https://prateekupd.github.io/be-website/",
   },
   {
     title: "Tic tac toe",
@@ -91,6 +92,7 @@ export const projectsData = [
       "A simple tic tac toe game. The application can be downloaded as a Progressive Web Application(PWA).",
     tags: ["Angular", "Typescript", "Firebase hosting", "Nebular UI"],
     imageUrl: tictactoeImg,
+    appUrl: "https://tic-tac-toe-d1165.web.app/",
   },
 ] as const;
 
