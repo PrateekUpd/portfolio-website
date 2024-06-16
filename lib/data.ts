@@ -68,7 +68,7 @@ export const projectsData = [
       "I worked on a gate pass application for a company. It has features like user roles, gate pass creation, approval and printing.",
     tags: ["Angular", "Material", "MongoDB", "Node.js", "Mongoose", "JWT"],
     imageUrl: gatepassImg,
-    appUrl: "",
+    appUrl: "https://gate-pass-ecru.vercel.app/login",
   },
   {
     title: "Recipe Book",
