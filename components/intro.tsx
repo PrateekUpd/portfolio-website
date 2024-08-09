@@ -8,6 +8,8 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import myImg from "@/public/my_pic.jpg";
+
 
 export default function Intro() {
   
@@ -31,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://scontent.fixe3-1.fna.fbcdn.net/v/t1.6435-9/39177599_2022346317815977_6741006460186001408_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zXGp04TYyUUQ7kNvgF1AWeu&_nc_ht=scontent.fixe3-1.fna&oh=00_AYCIM_3mZjdoW8e_aO7zUv8pfDiMj_ue5auxKHCsIQPCSQ&oe=66684919"
+              src={myImg}
               alt="Prateek portrait"
               width="192"
               height="192"
